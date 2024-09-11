@@ -1,0 +1,33 @@
+.dark-blue {
+  background-color: rgb(179, 212, 245);
+}
+
+.text-coklat {
+  color: red;
+}
+
+.nav-item .nav-link:hover {
+  color: red;
+  border-bottom: 2px solid;
+  transition: 0.2s;
+}
+
+.nav-item .nav-link {
+  color: black;
+  border-bottom: 2px solid rgb(179, 212, 245);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.w-10 {
+  width: 100px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    color: red;
+    font-size: 20px;
+  }
+}
